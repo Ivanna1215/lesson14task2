@@ -1,0 +1,107 @@
+.container {
+    width: 1920px;
+    height: 999px;
+    // border: 2px solid green;
+
+.name-1 { 
+    font-size: 18px;
+letter-spacing: 0px;
+line-height: 24px;
+font-weight: 600;
+font-family: "Raleway";
+text-align: center;
+margin: 20px;
+}
+.name-2 {
+    font-size: 60px;
+line-height: 66px;
+color: #ffcc00;
+font-weight: 900;
+font-family: "Roboto";
+text-align: center;
+margin-bottom: 195px;
+}
+.main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    // border: 2px solid red;
+   
+
+
+.part-1 {
+    // border: 2px solid green;
+    width: 20%;
+    margin-right: 50px;
+    // margin:0 auto ;
+    .boy {
+        width: 388px;
+        height: 388px;
+    }
+}
+.part-2 {
+    border: 2px solid blue;
+    width: 25%;
+    // margin: 0 auto;
+
+.top-big {
+    font-size: 36px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #666666;
+font-weight: 900;
+font-family: "Roboto";
+text-align: center;
+margin-bottom: 68px;
+}
+.top-main {
+    font-size: 24px;
+line-height: 36px;
+color: #666666;
+font-weight: 400;
+font-family: "Raleway";
+text-align: center;
+}
+.gallery {
+    border: 2px solid darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    margin: 0 auto;
+    position: relative;
+    
+.circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 80%;
+    background-color: darkgrey;
+    position: absolute;
+    top:
+}
+
+}
+.text {
+    width: 420px;
+    height: 121px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-align: center;
+    border: 2px solid red;
+    margin-bottom: 51px;
+} 
+button {
+    font-size: 14px;
+line-height: 24px;
+color: #666666;
+font-weight: 700;
+font-family: "Open Sans";
+text-transform: uppercase;
+}
+}
+}
+
+}

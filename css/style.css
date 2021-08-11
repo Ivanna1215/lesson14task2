@@ -1,0 +1,91 @@
+.container {
+  width: 1920px;
+  height: 999px; }
+  .container .name-1 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+    margin: 20px; }
+  .container .name-2 {
+    font-size: 60px;
+    line-height: 66px;
+    color: #ffcc00;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 195px; }
+  .container .main {
+    display: flex;
+    align-content: center;
+    justify-content: center; }
+    .container .main .part-1 {
+      width: 20%;
+      margin-right: 50px; }
+      .container .main .part-1 .boy {
+        width: 388px;
+        height: 388px; }
+    .container .main .part-2 {
+      border: 2px solid blue;
+      width: 25%; }
+      .container .main .part-2 .top-big {
+        font-size: 36px;
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: #666666;
+        font-weight: 900;
+        font-family: "Roboto";
+        text-align: center;
+        margin-bottom: 68px; }
+      .container .main .part-2 .top-main {
+        font-size: 24px;
+        line-height: 36px;
+        color: #666666;
+        font-weight: 400;
+        font-family: "Raleway";
+        text-align: center; }
+      .container .main .part-2 .gallery {
+        border: 2px solid darkgreen;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 120px;
+        margin: 0 auto; }
+        .container .main .part-2 .gallery .circle {
+          height: 25px;
+          width: 25px;
+          border-radius: 80%;
+          background-color: darkgrey;
+          margin: 0 auto; }
+      .container .main .part-2 .text {
+        width: 420px;
+        height: 121px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333333;
+        font-weight: 500;
+        font-family: "Raleway";
+        text-align: center;
+        border: 2px solid red;
+        margin-bottom: 51px; }
+      .container .main .part-2 button {
+        font-size: 14px;
+        line-height: 24px;
+        color: #666666;
+        font-weight: 700;
+        font-family: "Open Sans";
+        text-transform: uppercase; }
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf"); }
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.ttf"); }
