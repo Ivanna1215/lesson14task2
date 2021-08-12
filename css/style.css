@@ -1,39 +1,69 @@
-.container {
-  width: 1920px;
-  height: 999px; }
-  .container .name-1 {
-    font-size: 18px;
-    letter-spacing: 0px;
-    line-height: 24px;
-    font-weight: 600;
-    font-family: "Raleway";
-    text-align: center;
-    margin: 20px; }
-  .container .name-2 {
-    font-size: 60px;
-    line-height: 66px;
-    color: #ffcc00;
-    font-weight: 900;
-    font-family: "Roboto";
-    text-align: center;
-    margin-bottom: 195px; }
-  .container .main {
+.container .name-1 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: "Raleway";
+  text-align: center;
+  margin: 20px; }
+
+.container .name-2 {
+  font-size: 60px;
+  line-height: 66px;
+  color: #ffcc00;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 195px; }
+
+.container .wrap {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .container .wrap .left {
+    color: red;
+    font-size: 32px; }
+  .container .wrap .main {
     display: flex;
     align-content: center;
-    justify-content: center; }
-    .container .main .part-1 {
-      border: 2px solid green;
-      width: 20%;
-      height: 70%;
+    justify-content: space-between;
+    margin: 0 40px; }
+    .container .wrap .main .part-1 {
+      display: flex;
+      align-items: center;
       margin-right: 50px; }
-      .container .main .part-1 .boy {
-        width: 388px;
-        height: 388px; }
-    .container .main .part-2 {
+      .container .wrap .main .part-1 .border {
+        width: 419px;
+        height: 419px;
+        border: 1px solid #ffcc00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; }
+        .container .wrap .main .part-1 .border .boy {
+          z-index: 2;
+          border: 1px solid #ffcc00; }
+        .container .wrap .main .part-1 .border .wertikal {
+          width: 209px;
+          height: 421px;
+          background-color: white;
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, 0); }
+        .container .wrap .main .part-1 .border .horizontal {
+          width: 421px;
+          height: 209px;
+          background-color: white;
+          position: absolute;
+          top: 50%;
+          transform: translate(0, -50%); }
+    .container .wrap .main .part-2 {
       border: 2px solid blue;
-      width: 25%;
-      height: 70%; }
-      .container .main .part-2 .top-big {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .container .wrap .main .part-2 .top-big {
         font-size: 36px;
         letter-spacing: 1px;
         line-height: 24px;
@@ -42,7 +72,7 @@
         font-family: "Roboto";
         text-align: center;
         margin-bottom: 50px; }
-      .container .main .part-2 .top-main {
+      .container .wrap .main .part-2 .top-main {
         font-size: 24px;
         line-height: 36px;
         color: #666666;
@@ -50,14 +80,14 @@
         font-family: "Raleway";
         text-align: center;
         margin-bottom: 27px; }
-      .container .main .part-2 .gallery {
+      .container .wrap .main .part-2 .gallery {
         border: 2px solid darkgreen;
         display: flex;
         align-items: center;
         justify-content: space-around;
         width: 150px;
         margin: 0 auto 30px auto; }
-        .container .main .part-2 .gallery .circle {
+        .container .wrap .main .part-2 .gallery .circle {
           height: 25px;
           width: 25px;
           border-radius: 80%;
@@ -66,7 +96,7 @@
           display: flex;
           align-items: center;
           justify-content: center; }
-      .container .main .part-2 .text {
+      .container .wrap .main .part-2 .text {
         width: 420px;
         height: 121px;
         font-size: 14px;
@@ -77,40 +107,44 @@
         text-align: center;
         border: 2px solid red;
         margin: 0 auto 51px auto; }
-      .container .main .part-2 .dashed {
+      .container .wrap .main .part-2 .dashed {
         border: 2px solid green;
         margin-bottom: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 20px; }
-        .container .main .part-2 .dashed .el-1 {
+        .container .wrap .main .part-2 .dashed .el-1 {
           background-color: #FFCC00;
           width: 5px;
           height: 1px;
           margin-right: 5px; }
-        .container .main .part-2 .dashed .el-2 {
+        .container .wrap .main .part-2 .dashed .el-2 {
           background-color: #FFCC00;
           width: 10px;
           height: 1px;
           margin-right: 5px; }
-        .container .main .part-2 .dashed .el-3 {
+        .container .wrap .main .part-2 .dashed .el-3 {
           background-color: #FFCC00;
           width: 5px;
           height: 1px; }
-      .container .main .part-2 .fut-but {
+      .container .wrap .main .part-2 .fut-but {
         border: 2px solid red;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 150px; }
-        .container .main .part-2 .fut-but button {
+        .container .wrap .main .part-2 .fut-but button {
           font-size: 14px;
           line-height: 24px;
           color: #666666;
           font-weight: 700;
           font-family: "Open Sans";
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          border-color: #ffcc00; }
+  .container .wrap .right {
+    border: 2px solid green;
+    color: red; }
 
 @font-face {
   font-family: "Raleway";
