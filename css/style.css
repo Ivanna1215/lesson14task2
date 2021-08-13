@@ -1,28 +1,45 @@
-.container .name-1 {
-  font-size: 18px;
-  letter-spacing: 0px;
-  line-height: 24px;
-  font-weight: 600;
-  font-family: "Raleway";
-  text-align: center;
-  margin: 20px; }
-
-.container .name-2 {
-  font-size: 60px;
-  line-height: 66px;
-  color: #ffcc00;
-  font-weight: 900;
-  font-family: "Roboto";
-  text-align: center;
-  margin-bottom: 195px; }
+.container .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative; }
+  .container .header .name-1 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+    margin: 20px; }
+  .container .header .name-2 {
+    font-size: 60px;
+    line-height: 66px;
+    color: #ffcc00;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 2px solid  #FFCC00;
+    width: 400px; }
+  .container .header .square {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    position: absolute;
+    top: 150px; }
+  .container .header .icons {
+    color: #ffcc00;
+    font-size: 20px;
+    text-align: center; }
 
 .container .wrap {
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center; }
   .container .wrap .left {
-    color: red;
+    color: #FFCC00;
     font-size: 32px; }
   .container .wrap .main {
     display: flex;
@@ -32,7 +49,9 @@
     .container .wrap .main .part-1 {
       display: flex;
       align-items: center;
-      margin-right: 50px; }
+      margin-right: 50px;
+      padding-right: 50px;
+      border-right: 2px solid #ffcc00; }
       .container .wrap .main .part-1 .border {
         width: 419px;
         height: 419px;
@@ -59,10 +78,10 @@
           top: 50%;
           transform: translate(0, -50%); }
     .container .wrap .main .part-2 {
-      border: 2px solid blue;
       display: flex;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      padding-top: 100px; }
       .container .wrap .main .part-2 .top-big {
         font-size: 36px;
         letter-spacing: 1px;
@@ -71,7 +90,14 @@
         font-weight: 900;
         font-family: "Roboto";
         text-align: center;
-        margin-bottom: 50px; }
+        margin-bottom: 30px; }
+      .container .wrap .main .part-2 .linie {
+        width: 150px;
+        height: 2px;
+        text-align: center;
+        background-color: #FFCC00;
+        margin-bottom: 20px;
+        margin-left: 120px; }
       .container .wrap .main .part-2 .top-main {
         font-size: 24px;
         line-height: 36px;
@@ -81,7 +107,6 @@
         text-align: center;
         margin-bottom: 27px; }
       .container .wrap .main .part-2 .gallery {
-        border: 2px solid darkgreen;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -105,31 +130,29 @@
         font-weight: 500;
         font-family: "Raleway";
         text-align: center;
-        border: 2px solid red;
         margin: 0 auto 51px auto; }
       .container .wrap .main .part-2 .dashed {
-        border: 2px solid green;
         margin-bottom: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 20px; }
+        height: 20px;
+        font-size: 64px; }
         .container .wrap .main .part-2 .dashed .el-1 {
           background-color: #FFCC00;
-          width: 5px;
-          height: 1px;
+          width: 15px;
+          height: 3px;
           margin-right: 5px; }
         .container .wrap .main .part-2 .dashed .el-2 {
           background-color: #FFCC00;
-          width: 10px;
-          height: 1px;
+          width: 25px;
+          height: 3px;
           margin-right: 5px; }
         .container .wrap .main .part-2 .dashed .el-3 {
           background-color: #FFCC00;
-          width: 5px;
-          height: 1px; }
+          width: 15px;
+          height: 3px; }
       .container .wrap .main .part-2 .fut-but {
-        border: 2px solid red;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -143,8 +166,30 @@
           text-transform: uppercase;
           border-color: #ffcc00; }
   .container .wrap .right {
-    border: 2px solid green;
-    color: red; }
+    color: #FFCC00;
+    font-size: 32px; }
+
+.container .footer {
+  display: flex;
+  justify-content: space-around;
+  width: 50px;
+  margin: 20px auto; }
+  .container .footer .round-1 {
+    width: 11px;
+    height: 11px;
+    background-color: #FFCC00;
+    border-radius: 10px; }
+  .container .footer .round-2 {
+    width: 11px;
+    height: 11px;
+    background-color: white;
+    border: 1px solid #FFCC00;
+    border-radius: 10px; }
+  .container .footer .round-3 {
+    width: 11px;
+    height: 11px;
+    background-color: #FFCC00;
+    border-radius: 10px; }
 
 @font-face {
   font-family: "Raleway";

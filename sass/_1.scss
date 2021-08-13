@@ -2,6 +2,14 @@
     // width: 1920px;
     // height: 999px;
     // border: 2px solid green;
+    .header {
+        // border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
 
 .name-1 { 
     font-size: 18px;
@@ -11,6 +19,7 @@ font-weight: 600;
 font-family: "Raleway";
 text-align: center;
 margin: 20px;
+
 }
 .name-2 {
     font-size: 60px;
@@ -19,17 +28,36 @@ color: #ffcc00;
 font-weight: 900;
 font-family: "Roboto";
 text-align: center;
-margin-bottom: 195px;
+// margin-bottom: 50px;
+padding-bottom: 30px;
+border-bottom: 2px solid  #FFCC00;
+width: 400px;
+}
+.square {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+}
+.icons {
+    color:#ffcc00 ;
+    // border: 2px solid red;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
 }
 .wrap {
-    border: 2px solid red;
+    // border: 2px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
 
 
 .left {
-    color: red;
+    color: #FFCC00;
     font-size: 32px;
 }
 
@@ -45,6 +73,8 @@ margin-bottom: 195px;
    display: flex;
    align-items: center;
     margin-right: 50px;
+    padding-right: 50px;
+    border-right: 2px solid #ffcc00;  ;
     // margin:0 auto ;
 .border {
     width: 419px;
@@ -81,10 +111,14 @@ margin-bottom: 195px;
 
 }
 .part-2 {
-    border: 2px solid blue;
+    // border-left: 2px solid #ffcc00;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 100px;
+    // padding-left: 100px;
+    // height: 80%;
+    // border: 2px solid red;
 
   
 
@@ -96,8 +130,18 @@ color: #666666;
 font-weight: 900;
 font-family: "Roboto";
 text-align: center;
-margin-bottom: 50px;
+margin-bottom: 30px;
 }
+.linie {
+    width: 150px;
+    height: 2px;
+    // border: 2px solid red;
+    text-align: center;
+    background-color:#FFCC00;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+
 .top-main {
 font-size: 24px;
 line-height: 36px;
@@ -109,7 +153,7 @@ margin-bottom: 27px;
 }
 
 .gallery {
-    border: 2px solid darkgreen;
+    // border: 2px solid darkgreen;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -127,7 +171,6 @@ margin-bottom: 27px;
     justify-content: center;
 }
 
-
 }
 .text {
     width: 420px;
@@ -138,41 +181,40 @@ margin-bottom: 27px;
     font-weight: 500;
     font-family: "Raleway";
     text-align: center;
-    border: 2px solid red;
+    // border: 2px solid red;
     margin: 0 auto 51px auto;   
 } 
 .dashed {
-    border: 2px solid green;
+    // border: 2px solid green;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 20px;
+    font-size: 64px;
     
 .el-1 {
     background-color: #FFCC00 ;
-    width: 5px;
-    height: 1px;
+    width: 15px;
+    height: 3px;
     margin-right: 5px;
 }
 .el-2 {
     background-color: #FFCC00 ;
-    width: 10px;
-    height: 1px;
+    width: 25px;
+    height: 3px;
     margin-right: 5px;
 
 }
 .el-3 {
     background-color: #FFCC00 ;
-    width: 5px;
-    height: 1px;
+    width: 15px;
+    height: 3px;
 }
 }
-
-
 
 .fut-but {
-border: 2px solid red;
+// border: 2px solid red;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -185,7 +227,7 @@ color: #666666;
 font-weight: 700;
 font-family: "Open Sans";
 text-transform: uppercase;
-border-color:  #ffcc00;;
+border-color:  #ffcc00;
 
 }
 }
@@ -196,8 +238,41 @@ border-color:  #ffcc00;;
  
 }
 .right {
-    border: 2px solid green;
-    color: red;
+    // border: 2px solid green;
+    color: #FFCC00;
+    font-size: 32px;
     }
 }
+.footer {
+    // border: 2px solid green;
+    display: flex;
+    justify-content:space-around ;
+    width: 50px;
+    margin: 20px auto;
+    
+
+    .round-1 {
+        width: 11px;
+        height: 11px;
+        background-color: #FFCC00;
+        border-radius: 10px;
+    }
+    .round-2 {
+        width: 11px;
+        height: 11px;
+        background-color: white;
+        border:1px solid #FFCC00 ;
+        border-radius: 10px;
+    }
+    .round-3 {
+        width: 11px;
+        height: 11px;
+        background-color: #FFCC00;
+        border-radius: 10px;
+    }
+
+
+}
+
+
 }
